@@ -2,7 +2,6 @@ import axios, { AxiosRequestConfig } from "axios";
 
 const axiosRequestConfig: AxiosRequestConfig = {
   method: "POST",
-  withCredentials: true,
   headers: {
     "Content-Type": "application/json",
   },

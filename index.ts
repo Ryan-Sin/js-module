@@ -1,3 +1,4 @@
-import * as HttpClient from "./lib/httpClient";
+import * as httpClient from "./lib/http-client";
+import * as dateTime from "./lib/date-time";
 
-export { HttpClient };
+export { httpClient, dateTime };
